@@ -6,4 +6,3 @@ venv/
 # Ignore environment variables file
 .env
 .env
-generate_readme.py
