@@ -1,9 +1,0 @@
-# Script to generate README.md for ATS Resume Checker project
-
-readme_content = "# ATS Resume Checker\n\nThis Streamlit application allows users to analyze resumes against job descriptions, helping optimize resumes for ATS (Applicant Tracking Systems) by providing a match percentage, missing keywords, and a profile summary. The application uses Google Generative AI for analysis, PyPDF2 for PDF processing, and Streamlit for the interactive interface.\n\n## Features\n\n- **Resume Upload**: Upload resumes in PDF format.\n- **Job Description Input**: Enter job descriptions to compare against the resume.\n- **ATS Analysis**: Provides a percentage match, missing keywords, and a profile summary.\n- **Interactive UI**: Built with Streamlit for a user-friendly experience.\n- **AI-Powered Insights**: Uses Google Generative AI to evaluate resumes.\n\n## Prerequisites\n\nBefore running the application, ensure you have the following installed:\n\n- Python 3.8 or higher\n- Streamlit\n- PyPDF2\n- Google Generative AI\n- python-dotenv\n\n## Installation\n\n1. Clone the repository:\n   ```bash\n   git clone https://github.com/TahaNadeemkhan/ats-resume-checker.git\n   cd ats-resume-checker\n   ```\n2. Install the required Python packages:\n   ```bash\n   pip install -r requirements.txt\n   ```\n3. Set up your environment variables:\n   Create a .env file in the root directory.\n   Add your Google API key to the .env file:\n   ```bash\n   GOOGLE_API_KEY=your_google_api_key_here\n   ```\n4. Run the Streamlit application:\n   ```bash\n   python -m streamlit run ats_proj.py\n   ```"
-
-# Write the README content to a file
-with open("README.md", "w", encoding="utf-8") as f:
-    f.write(readme_content)
-
-print("README.md file has been generated successfully!")

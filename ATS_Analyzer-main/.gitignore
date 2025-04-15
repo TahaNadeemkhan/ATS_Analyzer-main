@@ -1,8 +1,0 @@
-# .gitignore
-
-# Ignore virtual environment
-venv/
-
-# Ignore environment variables file
-.env
-.env

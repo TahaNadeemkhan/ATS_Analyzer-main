@@ -16,7 +16,7 @@ except KeyError:
 
 def get_gemini_response(input_text):
     try:
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model = genai.GenerativeModel('gemini-2.0-flash')
         response = model.generate_content(input_text)
         return response.text
     except Exception as e:
